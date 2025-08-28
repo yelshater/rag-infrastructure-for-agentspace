@@ -1,0 +1,15 @@
+# Example terraform.tfvars file. Replace the placeholder values with your own.
+
+project_id                   = "your-gcp-project-id"
+project_number               = "your-gcp-project-number"
+region                       = "your-gcp-region"
+unstructured_data_bucket_name = "your-gcs-bucket-name"
+metadata_generation_topic_id  = "your-metadata-generation-topic-id"
+update_datastore_topic_id     = "your-update-datastore-topic-id"
+firestore_db_name             = "your-firestore-db-name"
+auto_process_path_prefix      = "your-auto-process-path-prefix"
+firestore_collection_name     = "your-firestore-collection-name"
+gemini_model_name             = "gemini-2.5-pro"
+vertex_ai_location            = "your-vertex-ai-location"
+overwrite_existing_metadata   = true
+discovery_engine_data_store_display_name = "Your Data Store Display Name"

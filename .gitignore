@@ -1,0 +1,28 @@
+# Ignore log files
+logs/
+*.log
+
+# Ignore Python cache files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# config
+src/config/config_private.yaml
+
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*.backup
+terraform.tfvars
+*copy.tfvars.copy
+tmp/
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.venv/

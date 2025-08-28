@@ -1,0 +1,14 @@
+# Terraform state and variables
+terraform/terraform.tfstate
+terraform/terraform.tfvars
+terraform/terraform copy.tfvars.copy
+
+# Terraform state backups (using glob pattern)
+terraform/terraform.tfstate.*.backup
+
+# Terraform provider cache and temp files
+terraform/.terraform/
+terraform/tmp/
+
+# Environment files
+terraform/cloud-functions/metadata-generator/.env
